@@ -14,6 +14,7 @@ This project is used to showcase how to enable the API designer to use the local
 It is not hosted on NPM and I am actually not planning to do it. Again, it's for demo purposes. If you still want to use it on your own, you can follow those simple steps:
 
 1. Clone the repository
-2. Execute `npm install`
-3. Execute `npm link`
-4. Execute `api-designer-fs examples/`
+2. Execute `cd api-designer-fs`
+3. Execute `npm install`
+4. Execute `npm link`
+5. Execute `api-designer-fs examples/`
