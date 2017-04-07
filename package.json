@@ -1,0 +1,26 @@
+{
+  "name": "api-designer-fs",
+  "version": "1.0.0",
+  "description": "This is a version of MuleSoft's API designer that interacts directly with your filesystem.",
+  "main": "index.js",
+  "keywords": [
+    "raml",
+    "api",
+    "designer"
+  ],
+  "bin": {
+    "api-designer-fs": "index.js"
+  },
+  "dependencies": {
+    "api-designer": "git://github.com/mulesoft/api-designer.git",
+    "bluebird": "^3.4.1",
+    "body-parser": "^1.15.2",
+    "commander": "^2.9.0",
+    "express": "^4.14.0",
+    "mkdirp": "^0.5.1",
+    "request": "^2.75.0",
+    "rimraf": "^2.5.4"
+  },
+  "author": "Christian Vogel",
+  "license": "MIT"
+}
